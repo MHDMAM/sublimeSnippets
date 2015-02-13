@@ -1,0 +1,11 @@
+
+
+<snippet>
+	<content><![CDATA[
+var $1 = _.template(${2:url},{$3});
+]]></content>
+	<tabTrigger>_template</tabTrigger>
+	<description>Tempalte Lodash</description>
+</snippet>
+
+
