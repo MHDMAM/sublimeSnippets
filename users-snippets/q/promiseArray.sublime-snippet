@@ -1,0 +1,13 @@
+
+
+<snippet>
+	<content><![CDATA[
+var ${1:promises} = [];
+var ${2:deferred} = q.defer();
+${1:promises}.push(${2:deferred}.promise);
+]]></content>
+	<tabTrigger>promise</tabTrigger>
+	<description>promise array, Q</description>
+</snippet>
+
+
