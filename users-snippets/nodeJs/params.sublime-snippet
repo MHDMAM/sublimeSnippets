@@ -1,0 +1,12 @@
+
+
+<snippet>
+	<content><![CDATA[
+var $1 = req.params.$1;
+
+]]></content>
+	<tabTrigger>param</tabTrigger>
+	<description>params, NodeJS</description>
+</snippet>
+
+
