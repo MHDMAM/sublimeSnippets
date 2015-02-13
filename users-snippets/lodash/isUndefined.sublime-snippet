@@ -1,0 +1,11 @@
+
+
+<snippet>
+	<content><![CDATA[
+_.isUndefined($1)$2
+]]></content>
+	<tabTrigger>_isUndefined</tabTrigger>
+	<description>isUndefined Lodash</description>
+</snippet>
+
+
