@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+var _ = require('lodash');
+
+]]></content>
+	<tabTrigger>_req</tabTrigger>
+	<description>req Lodash</description>
+</snippet>
+
+
