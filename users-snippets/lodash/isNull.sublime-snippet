@@ -1,0 +1,11 @@
+
+
+<snippet>
+	<content><![CDATA[
+_.isNull($1)$2
+]]></content>
+	<tabTrigger>_isNull</tabTrigger>
+	<description>isNull Lodash</description>
+</snippet>
+
+
