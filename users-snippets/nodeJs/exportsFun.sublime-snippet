@@ -1,0 +1,13 @@
+
+
+<snippet>
+	<content><![CDATA[
+exports.${1:Name} = function(req, res, next){
+	$2
+};
+]]></content>
+	<tabTrigger>exports</tabTrigger>
+	<description>exports function, NodeJs</description>
+</snippet>
+
+
