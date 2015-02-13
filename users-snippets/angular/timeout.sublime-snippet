@@ -1,0 +1,11 @@
+
+
+<snippet>
+	<content><![CDATA[
+\$timeout($2, ${1: 1000});
+]]></content>
+	<tabTrigger>timeout</tabTrigger>
+	<description>$timeout, Angular</description>
+</snippet>
+
+
