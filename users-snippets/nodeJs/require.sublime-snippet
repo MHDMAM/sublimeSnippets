@@ -1,0 +1,12 @@
+
+
+<snippet>
+	<content><![CDATA[
+var $1 = require('$1');
+
+]]></content>
+	<tabTrigger>require</tabTrigger>
+	<description>require, nodeJs</description>
+</snippet>
+
+
