@@ -1,0 +1,13 @@
+
+
+<snippet>
+	<content><![CDATA[
+q.all(${1:promises}).then(function ($2) {
+	$3
+});
+]]></content>
+	<tabTrigger>promise</tabTrigger>
+	<description>promise array then, Q</description>
+</snippet>
+
+
