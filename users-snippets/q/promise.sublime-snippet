@@ -1,0 +1,12 @@
+
+
+<snippet>
+	<content><![CDATA[
+var ${1:promise} = q.defer()
+${1:promise}.resolve();
+]]></content>
+	<tabTrigger>promise</tabTrigger>
+	<description>promise, Q</description>
+</snippet>
+
+
