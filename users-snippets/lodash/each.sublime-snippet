@@ -1,0 +1,13 @@
+
+
+<snippet>
+	<content><![CDATA[
+_.each($1, function(${2: value}, ${3:key}, ${4:collection}) {
+	$5
+});
+]]></content>
+	<tabTrigger>_each</tabTrigger>
+	<description>Each Lodash</description>
+</snippet>
+
+
