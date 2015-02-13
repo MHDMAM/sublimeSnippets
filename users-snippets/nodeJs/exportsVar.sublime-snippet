@@ -1,0 +1,12 @@
+
+
+<snippet>
+	<content><![CDATA[
+exports.$1 = $1;
+
+]]></content>
+	<tabTrigger>exports</tabTrigger>
+	<description>exports variable, NodeJS</description>
+</snippet>
+
+
