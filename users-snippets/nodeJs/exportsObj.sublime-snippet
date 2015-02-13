@@ -1,0 +1,14 @@
+
+
+<snippet>
+	<content><![CDATA[
+var $1 = module.exports ={
+	$2
+};
+
+]]></content>
+	<tabTrigger>exports</tabTrigger>
+	<description>exports object, NodeJS</description>
+</snippet>
+
+
