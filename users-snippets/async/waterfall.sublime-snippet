@@ -1,0 +1,22 @@
+
+
+<snippet>
+	<content><![CDATA[
+var ${1:waterfallArray} = [
+	function ${2:fn1}(callback) {
+		callback('err', 'data');
+	},
+	function ${3:fn2}(data, callback) {
+		callback('err', 'data');
+	},
+];
+
+async.waterfall(${1:waterfallArray}, function callbackFn(err, result) {
+
+});
+]]></content>
+	<tabTrigger>waterfall</tabTrigger>
+	<description>waterfall, Async</description>
+</snippet>
+
+
