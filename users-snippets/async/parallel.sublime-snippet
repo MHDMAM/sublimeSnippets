@@ -1,0 +1,22 @@
+
+
+<snippet>
+	<content><![CDATA[
+var ${1:parallelArray} = [
+	function ${2:fn1}(callback) {
+		callback(null);
+	},
+	function ${3:fn2}(callback) {
+		callback(null);
+	},
+];
+
+async.parallel(${1:parallelArray}, function callbackFn(err, result) {
+
+});
+]]></content>
+	<tabTrigger>parallel</tabTrigger>
+	<description>parallel, Async</description>
+</snippet>
+
+
