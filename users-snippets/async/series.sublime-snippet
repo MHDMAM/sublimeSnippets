@@ -1,0 +1,22 @@
+
+
+<snippet>
+	<content><![CDATA[
+var ${1:seriesArray} = [
+	function ${2:fn1}(callback) {
+		callback(null);
+	},
+	function ${3:fn2}(callback) {
+		callback(null);
+	},
+];
+
+async.series(${1:parallelArray}, function callbackFun(err, result) {
+
+});
+]]></content>
+	<tabTrigger>series</tabTrigger>
+	<description>series, Async</description>
+</snippet>
+
+
