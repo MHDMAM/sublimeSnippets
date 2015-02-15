@@ -1,0 +1,13 @@
+
+
+<snippet>
+	<content><![CDATA[
+\$scope.\$watch('$1', function(${2:nv}, ${3:ov}){
+	console.log('$1', ${2:nv}, ${3:ov});
+	}, ${4:true});
+]]></content>
+	<tabTrigger>watch</tabTrigger>
+	<description>$watch, Angular</description>
+</snippet>
+
+
