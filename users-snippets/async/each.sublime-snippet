@@ -1,0 +1,18 @@
+
+
+<snippet>
+	<content><![CDATA[
+function ${1:iteratorFunction}(${2:item}, callback) {
+	callback(null)
+}
+
+async.each(${3:array},${1:iteratorFunction}, function callbackFunction(err) {
+	$4
+});
+
+]]></content>
+	<tabTrigger>each</tabTrigger>
+	<description>each, Async</description>
+</snippet>
+
+
