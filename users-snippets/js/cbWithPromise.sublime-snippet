@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+function readPackage(callback = function() {}) {
+  return new Promise((resolve, reject) => {
+    // Code here...
+    $1
+    reject(err);
+    return callback(err);
+
+    resolve(data);
+    return callback(null, data);
+
+  });
+}
+]]></content>
+  <tabTrigger>cbPromise</tabTrigger>
+  <description>callback with promise, Js</description>
+</snippet>
