@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+    constructor(${1:params}) {
+    	${0}
+    }
+    ]]></content>
+  <tabTrigger><![CDATA[constructor]]></tabTrigger>
+  <description>Add default constructor in a class in ES6 syntax</description>
+</snippet>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-var _ = require('lodash');
+const _ = require('lodash');
 
 ]]></content>
 	<tabTrigger>_req</tabTrigger>

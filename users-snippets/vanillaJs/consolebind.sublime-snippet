@@ -1,0 +1,11 @@
+
+
+<snippet>
+	<content><![CDATA[
+console.log.bind(console);
+]]></content>
+	<tabTrigger><![CDATA[consolebind]]></tabTrigger>
+	<description>console bind, Js</description>
+</snippet>
+
+

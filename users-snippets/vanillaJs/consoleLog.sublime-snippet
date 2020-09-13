@@ -1,0 +1,11 @@
+
+
+<snippet>
+	<content><![CDATA[
+console.log($1);
+]]></content>
+	<tabTrigger><![CDATA[log]]></tabTrigger>
+	<description>console log, JS</description>
+</snippet>
+
+

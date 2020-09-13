@@ -1,0 +1,11 @@
+
+
+<snippet>
+	<content><![CDATA[
+JSON.stringify($1);$2
+]]></content>
+	<tabTrigger>stringify</tabTrigger>
+	<description>JSON JS</description>
+</snippet>
+
+

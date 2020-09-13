@@ -2,11 +2,10 @@
 
 <snippet>
 	<content><![CDATA[
-var $1 = require('$1');
-
+const $1 = require('$1');
 ]]></content>
 	<tabTrigger>require</tabTrigger>
-	<description>require, nodeJs</description>
+	<description>Require a package to const, nodeJs</description>
 </snippet>
 
 

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+    .then((${1:result}) => {
+    	${2}
+    }).catch((${3:err}) => {
+    	${4}
+    });
+    ]]></content>
+  <tabTrigger><![CDATA[then&Catch]]></tabTrigger>
+  <description>Add the .then and .catch methods to handle promises</description>
+</snippet>

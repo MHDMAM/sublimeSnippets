@@ -2,7 +2,7 @@
 
 <snippet>
 	<content><![CDATA[
-var ${1:seriesArray} = [
+const ${1:seriesArray} = [
 	function ${2:fn1}(callback) {
 		callback(null);
 	},

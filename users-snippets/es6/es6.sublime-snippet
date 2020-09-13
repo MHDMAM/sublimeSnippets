@@ -1,0 +1,389 @@
+
+
+<snippet>
+  <content><![CDATA[
+    import ${2:moduleName} from '${1:module}';$0
+    ]]></content>
+  <tabTrigger><![CDATA[import]]></tabTrigger>
+  <description>Imports entire module statement in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    import '${1:module}';$0
+    ]]></content>
+  <tabTrigger><![CDATA[import NoModule Name]]></tabTrigger>
+  <description>Imports entire module in ES6 syntax without module name</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    import { $2 } from '${1:module}';$0
+    ]]></content>
+  <tabTrigger><![CDATA[importDestructing]]></tabTrigger>
+  <description>Imports only a portion of the module in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    import * as ${2:alias} from '${1:module}';$0
+    ]]></content>
+  <tabTrigger><![CDATA[importEverything]]></tabTrigger>
+  <description>Imports everything as alias from the module in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    import { ${2:originalName} as ${3:alias} } from '${1:module}';$0
+    ]]></content>
+  <tabTrigger><![CDATA[importAs]]></tabTrigger>
+  <description>Imports a specific portion of the module by assigning a local alias in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    require('${1:package}');
+    ]]></content>
+  <tabTrigger><![CDATA[require]]></tabTrigger>
+  <description>Require a package</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    const ${1:packageName} = require('${1:package}');$0
+    ]]></content>
+  <tabTrigger><![CDATA[requireToConst]]></tabTrigger>
+  <description>Require a package to const</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    module.exports = {\n\t$0\n};\n
+    ]]></content>
+  <tabTrigger><![CDATA[moduleExports]]></tabTrigger>
+  <description>Module exports from Common JS, node syntax at ES6</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    export const ${1:functionName} = (${2:params}) => {\n\t$0\n};\n
+    ]]></content>
+  <tabTrigger><![CDATA[exportNamedFunction]]></tabTrigger>
+  <description>Export named function in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    export default (${1:params}) => {\n\t$0\n};\n
+    ]]></content>
+  <tabTrigger><![CDATA[exportDefaultFunction]]></tabTrigger>
+  <description>Export default function in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    export default class ${1:className} {\n\t$0\n};\n
+    ]]></content>
+  <tabTrigger><![CDATA[exportClass]]></tabTrigger>
+  <description>Export default class in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    export default class ${1:className} extends ${2:baseclassName} {\n\t$0\n};\n
+    ]]></content>
+  <tabTrigger><![CDATA[exportClassExtends]]></tabTrigger>
+  <description>Export default class which extends a base one in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    constructor(${1:params}) {\n\t${0}\n}
+    ]]></content>
+  <tabTrigger><![CDATA[constructor]]></tabTrigger>
+  <description>Add default constructor in a class in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    ${1:methodName}(${2:params}) {\n\t${0}\n}
+    ]]></content>
+  <tabTrigger><![CDATA[method]]></tabTrigger>
+  <description>Creates a method inside a class in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    get ${1:propertyName}() {\n\treturn this.${0};\n}
+    ]]></content>
+  <tabTrigger><![CDATA[propertyGet]]></tabTrigger>
+  <description>Creates a getter property inside a class in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    set ${1:propertyName}(${2:value}) {\n\t${0};\n}
+    ]]></content>
+  <tabTrigger><![CDATA[propertyset]]></tabTrigger>
+  <description>Creates a setter property inside a class in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    ${1:array}.forEach(${2:currentItem} => {\n\t${0}\n});
+    ]]></content>
+  <tabTrigger><![CDATA[forEach]]></tabTrigger>
+  <description>Creates a forEach statement in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    for (const ${1:item} of ${2:object}) {\n\t${0}\n}
+      ]]></content>
+  <tabTrigger><![CDATA[forOf]]></tabTrigger>
+  <description>Iterating over property names of iterable objects</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    for (const ${1:item} in ${2:object}) {\n\t${0}\n}
+      ]]></content>
+  <tabTrigger><![CDATA[forIn]]></tabTrigger>
+  <description>Iterating over property values of iterable objects</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    (${1:params}) => {\n\t${2}\n}
+    ]]></content>
+  <tabTrigger><![CDATA[anonymousFunction]]></tabTrigger>
+  <description>Creates an anonymous function in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    const ${1:name} = (${2:params}) => {\n\t${3}\n}
+    ]]></content>
+  <tabTrigger><![CDATA[namedFunction]]></tabTrigger>
+  <description>Creates a named function in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    const {${2:propertyName}} = ${1:objectToDestruct};
+    ]]></content>
+  <tabTrigger><![CDATA[destructingObject]]></tabTrigger>
+  <description>Creates and assigns a local variable using object destructing</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    const [${2:propertyName}] = ${1:arrayToDestruct};
+    ]]></content>
+  <tabTrigger><![CDATA[destructingArray]]></tabTrigger>
+  <description>Creates and assigns a local variable using array destructing</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    setInterval(() => {\n\t${2}\n}, ${0:intervalInms});
+    ]]></content>
+  <tabTrigger><![CDATA[setInterval]]></tabTrigger>
+  <description>Executes the given function at specified intervals in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    setTimeout(() => {\n\t${2}\n}, ${1:delayInms});
+    ]]></content>
+  <tabTrigger><![CDATA[setTimeOut]]></tabTrigger>
+  <description>Executes the given function after the specified delay in ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    return new Promise((resolve, reject) => {\n\t${1}\n});
+    ]]></content>
+  <tabTrigger><![CDATA[promise]]></tabTrigger>
+  <description>Creates and returns a new Promise in the standard ES6 syntax</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    .then((${1:result}) => {\n\t${2}\n}).catch((${3:err}) => {\n\t${4}\n});
+    ]]></content>
+  <tabTrigger><![CDATA[thenCatch]]></tabTrigger>
+  <description>Add the .then and .catch methods to handle promises</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.assert(${1:expression}, ${2:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleAssert]]></tabTrigger>
+  <description>If the specified expression is false, the message is written to the console along with a stack trace</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.clear();
+    ]]></content>
+  <tabTrigger><![CDATA[consoleClear]]></tabTrigger>
+  <description>Clears the console</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.count(${1:label});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleCount]]></tabTrigger>
+  <description>Writes the the number of times that count() has been invoked at the same line and with the same label</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.debug(${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleDebug]]></tabTrigger>
+  <description>Displays a message in the console. Also display a blue right arrow icon along with the logged message in Safari</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.dir(${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleDir]]></tabTrigger>
+  <description>Prints a JavaScript representation of the specified object</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.error(${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleError]]></tabTrigger>
+  <description>Displays a message in the console and also includes a stack trace from where the method was called</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.group('${1:label}');
+    ]]></content>
+  <tabTrigger><![CDATA[consoleGroup]]></tabTrigger>
+  <description>Groups and indents all following output by an additional level, until console.groupEnd() is called.</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.groupEnd();
+    ]]></content>
+  <tabTrigger><![CDATA[consoleGroupEnd]]></tabTrigger>
+  <description>Closes out the corresponding console.group().</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.log(${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleLog]]></tabTrigger>
+  <description>Displays a message in the console</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.log('${1:object} :', ${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleLogObject]]></tabTrigger>
+  <description>Displays an object in the console with its name</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.trace(${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleTrace]]></tabTrigger>
+  <description>Prints a stack trace from the point where the method was called</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.warn(${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleWarn]]></tabTrigger>
+  <description>Displays a message in the console but also displays a yellow warning icon along with the logged message</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.info(${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleInfo]]></tabTrigger>
+  <description>Displays a message in the console but also displays a blue information icon along with the logged message</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.table(${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleTable]]></tabTrigger>
+  <description>Displays tabular data as a table.</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.time(${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleTime]]></tabTrigger>
+  <description>Sets starting point for execution time measurement</description>
+</snippet>
+
+
+<snippet>
+  <content><![CDATA[
+    console.timeEnd(${1:object});
+    ]]></content>
+  <tabTrigger><![CDATA[consoleTimeEnd]]></tabTrigger>
+  <description>Sets end point for execution time measurement</description>
+</snippet>
+
+  

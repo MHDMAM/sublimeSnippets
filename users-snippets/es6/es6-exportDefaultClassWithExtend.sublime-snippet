@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+    export default class ${1:className} extends ${2:baseclassName} {
+    	$0
+    };
+    ]]></content>
+  <tabTrigger><![CDATA[class export extends]]></tabTrigger>
+  <description>Export default class which extends a base one in ES6 syntax</description>
+</snippet>

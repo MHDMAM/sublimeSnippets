@@ -1,0 +1,577 @@
+<snippet>
+  <content><![CDATA[import React, { Component } from 'react';\n\nclass ${1:${TM_FILENAME_BASE}} extends Component {\n\trender() {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t);\n\t}\n}\n\nexport default $ reactClassComponent{1:${TM_FILENAME_BASE}};
+  ]]></content>
+  <tabTrigger><![CDATA[rcc]]></tabTrigger>
+  <description>Creates a React component class with ES6 module system</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React, { Component } from 'react';\nimport { connect } from 'react-redux';\n\nfunction mapStateToProps(state) {\n\treturn {\n\n\t};\n}\n\nclass ${1:${TM_FILENAME_BASE}} extends Component {\n\trender() {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t);\n\t}\n}\n\nex reactReduxComponentport default connect(\n\tmapStateToProps,\n)(${1:${TM_FILENAME_BASE}});
+  ]]></content>
+  <tabTrigger><![CDATA[rrc]]></tabTrigger>
+  <description>Creates a React component class connected to redux</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React, { Component } from 'react';\nimport { connect } from 'react-redux';\n\nfunction mapStateToProps(state) {\n\treturn {\n\n\t};\n}\n\nfunction mapDispatchToProps(dispatch) {\n\treturn {\n\n\t};\n}\n\nclass ${1:${TM_FILENAME_BASE}} extends Component {\n\trender() {\n\t\treturn (\n\ reactReduxDispatchComponentt\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t);\n\t}\n}\n\nexport default connect(\n\tmapStateToProps,\n)(${1:${TM_FILENAME_BASE}});
+  ]]></content>
+  <tabTrigger><![CDATA[rrdc]]></tabTrigger>
+  <description>Creates a React component class connected to redux with dispatch</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[class ${1:${TM_FILENAME_BASE}} extends Component {\n\trender() {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t);\n\t}\n}\n
+   reactJustClassComponent]]></content>
+  <tabTrigger><![CDATA[rcjc]]></tabTrigger>
+  <description>Creates a React component class with ES6 module system</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React, { Component } from 'react';\nimport PropTypes from 'prop-types';\n\nclass ${1:${TM_FILENAME_BASE}} extends Component {\n\trender() {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t);\n\t}\n}\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\n};\n\nex reactClassComponentPropTypesport default ${1:${TM_FILENAME_BASE}};
+  ]]></content>
+  <tabTrigger><![CDATA[rccp]]></tabTrigger>
+  <description>Creates a React component class with PropTypes and ES6 module system</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React, { Component } from 'react';\nimport PropTypes from 'prop-types';\n\nclass ${1:${TM_FILENAME_BASE}} extends Component {\n\tconstructor(props) {\n\t\tsuper(props);\n\t\tthis.state = {\n\t\t\t\n\t\t}\n\t}\n\n\tstatic getDerivedStateFromProps() {\n\t\treturn null\n\t}\n\n\tcomponentDid reactClassComponentWithMethodsMount() {\n\t\t\n\t}\n\n\t// shouldComponentUpdate(nextProps, nextState) {}\n\n\tgetSnapshotBeforeUpdate(prevProps, prevState) {\n\t\treturn null\n\t}\n\n\tcomponentDidUpdate(prevProps, prevState, snapshot) {\n\t\t\n\t}\n\n\tcomponentWillUnmount() {\n\t\t\n\t}\n\n\trender() {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t\n\t\t\t</div>\n\t\t);\n\t}\n}\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\t\n};\n\nexport default ${1:${TM_FILENAME_BASE}};
+  ]]></content>
+  <tabTrigger><![CDATA[rcfc]]></tabTrigger>
+  <description>Creates a React component class with PropTypes and all lifecycle methods and ES6 module system</description>
+ 
+    
+<snippet>
+  <content><![CDATA[class ${1:${TM_FILENAME_BASE}} extends React.Component {\n\tconstructor(props) {\n\t\tsuper(props);\n\n\t\tthis.state = {};\n\n\t}\n\n\trender() {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t);\n\t}\n}\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\n};\n\nex reactWithWebpackDefaultsport default ${1:${TM_FILENAME_BASE}};
+  ]]></content>
+  <tabTrigger><![CDATA[rwwd]]></tabTrigger>
+  <description>Creates a React component class with constructor, empty state, proptypes and export in ES6 module</description>
+ 
+    
+<snippet>
+  <content><![CDATA[import React, { PureComponent } from 'react';\nimport PropTypes from 'prop-types';\n\nclass ${1:${TM_FILENAME_BASE}} extends PureComponent {\n\trender() {\n\t\treturn (\n\t\t\t<div>\n\t\t\t\t$0\n\t\t\t</div>\n\t\t);\n\t}\n}\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\n};\n\nex reactPureComponentport default ${1:${TM_FILENAME_BASE}};
+  ]]></content>
+  <tabTrigger><![CDATA[rpc]]></tabTrigger>
+  <description>Creates a React pure component class with PropTypes and ES6 module system</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React from 'react';\n\nconst ${1:${TM_FILENAME_BASE}} = () => {\n\treturn (\n\t\t<div>\n\t\t\t$0\n\t\t</div>\n\t);\n};\n\nexport default ${1:${TM_FILENAME_BASE}};
+   reactStateless]]></content>
+  <tabTrigger><![CDATA[rsc]]></tabTrigger>
+  <description>Creates a stateless React component without PropTypes and ES6 module system</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React from 'react';\nimport PropTypes from 'prop-types';\n\nconst ${1:${TM_FILENAME_BASE}} = props => {\n\treturn (\n\t\t<div>\n\t\t\t\n\t\t</div>\n\t);\n};\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\t$0\n};\n\nexport default $ reactStatelessProps{1:${TM_FILENAME_BASE}};
+  ]]></content>
+  <tabTrigger><![CDATA[rscp]]></tabTrigger>
+  <description>Creates a stateless React component with PropTypes and ES6 module system</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React,{ useState } from 'react';\nimport PropTypes from 'prop-types';\n\nconst ${1:${TM_FILENAME_BASE}} = props => {\n\treturn (\n\t\t<div>\n\t\t\t\n\t\t</div>\n\t);\n};\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\t$0\n};\n\nex reactHookPropsport default ${1:${TM_FILENAME_BASE}};
+  ]]></content>
+  <tabTrigger><![CDATA[rhc]]></tabTrigger>
+  <description>Creates a stateless React component with PropTypes and ES6 module system</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React, { memo } from 'react';\n\nconst ${1:${TM_FILENAME_BASE}} = memo(() => {\n\treturn (\n\t\t<div>\n\t\t\t$0\n\t\t</div>\n\t);\n});\n\nexport default ${1:${TM_FILENAME_BASE}};
+   reactMemo]]></content>
+  <tabTrigger><![CDATA[rscm]]></tabTrigger>
+  <description>Creates a memoized stateless React component without PropTypes and ES6 module system</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React, { memo } from 'react';\nimport PropTypes from 'prop-types';\n\nconst ${1:${TM_FILENAME_BASE}} = memo((props) => {\n\treturn (\n\t\t<div>\n\t\t\t\n\t\t</div>\n\t);\n});\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\t$0\n};\n\nex reactMemoPropsport default ${1:${TM_FILENAME_BASE}};
+  ]]></content>
+  <tabTrigger><![CDATA[rscpm]]></tabTrigger>
+  <description>Creates a memoized stateless React component with PropTypes and ES6 module system</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[// @flow \nimport * as React from 'react';\ntype Props = {\n\t$0\n};\nexport const ${1:${TM_FILENAME_BASE}} = (props: Props) => {\n\treturn (\n\t\t<div>\n\t\t\t\n\t\t</div>\n\t);\n};
+   flowStatelessComponent]]></content>
+  <tabTrigger><![CDATA[fsc]]></tabTrigger>
+  <description>Creates a stateless React component with FlowTypes and ES6 module system</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[
+      "// @flow",
+      "import * as React f flowStatelessFunctionrom 'react';",
+      "type Props = {",
+      "  $0",
+      "};",
+      "export function ${1:${TM_FILENAME_BASE}}(props: Props) {",
+      "  return (",
+      "    <div>",
+      "      ",
+      "    </div>",
+      "  );",
+      "};"
+    
+    ]]></content>
+  <tabTrigger><![CDATA[fsf]]></tabTrigger>
+  <description>Creates a stateless React component as a named function with FlowTypes</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[
+      "// @flow",
+      "import * as React f flowClassComponentrom 'react';",
+      "type Props = {",
+      "  $0",
+      "};",
+      "type State = {",
+      "  $1",
+      "};",
+      "export class ${2:${TM_FILENAME_BASE}} extends React.Component<Props, State>{",
+      "  render() {",
+      "    return (",
+      "      <div>",
+      "        ",
+      "      </div>",
+      "    );",
+      "  };",
+      "};"
+    
+    ]]></content>
+  <tabTrigger><![CDATA[fcc]]></tabTrigger>
+  <description>Creates a React component class with FlowTypes</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React from 'react';\n\nfunction ${1:${TM_FILENAME_BASE}}(props) {\n\treturn (\n\t\t<div>\n\t\t\t\n\t\t</div>\n\t);\n}\n\nexport default ${1:${TM_FILENAME_BASE}};
+   reactStatelessFunction]]></content>
+  <tabTrigger><![CDATA[rsf]]></tabTrigger>
+  <description>Creates a stateless React component as a named function without PropTypes</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React from 'react';\nimport PropTypes from 'prop-types';\n\n${1:${TM_FILENAME_BASE}}.propTypes = {\n\t$0\n};\n\nfunction ${1:${TM_FILENAME_BASE}}(props) {\n\treturn (\n\t\t<div>\n\t\t\t\n\t\t</div>\n\t);\n}\n\nexport default $ reactStatelessFunctionProps{1:${TM_FILENAME_BASE}};
+  ]]></content>
+  <tabTrigger><![CDATA[rsfp]]></tabTrigger>
+  <description>Creates a stateless React component as a named function with PropTypes</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[import React from 'react';\n\nconst ${1:${TM_FILENAME_BASE}} = (props) => (\n\t\t\t$0\n\t);\n\nexport default ${1:${TM_FILENAME_BASE}};
+     reactStatelessImplicitReturn]]></content>
+  <tabTrigger><![CDATA[rsi]]></tabTrigger>
+  <description>Creates a stateless React component without PropTypes and ES6 module system but with Implicit</description>
+ 
+    
+<snippet>
+  <content><![CDATA[constructor(props) {\n\tsuper(props);\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[con classConstructor]]></tabTrigger>
+  <description>Adds a default constructor for the class that contains props as arguments</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[constructor(props, context) {\n\tsuper(props, context);\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[conc classConstructorContext]]></tabTrigger>
+  <description>Adds a default constructor for the class that contains props and context as arguments</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[this.state = {\n\t$1\n};
+    ]]></content>
+  <tabTrigger><![CDATA[est emptyState]]></tabTrigger>
+  <description>Creates empty state object. To be used in a constructor.</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[\ncomponentWillMount() {\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[cwm componentWillMount]]></tabTrigger>
+  <description>Invoked once, both on the client and server, immediately before the initial rendering occurs</description>
+ 
+    
+<snippet>
+  <content><![CDATA[componentDidMount() {\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[cdm componentDidMount]]></tabTrigger>
+  <description>Invoked once, only on the client (not on the server), immediately after the initial rendering</description>
+ 
+    
+<snippet>
+  <content><![CDATA[componentWillReceiveProps(nextProps) {\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[cwr componentWillReceiveProps]]></tabTrigger>
+  <description>Invoked when a component is receiving new props. This method is not called for the initial render.</description>
+ 
+    
+<snippet>
+  <content><![CDATA[shouldComponentUpdate(nextProps, nextState) {\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[scu shouldComponentUpdate]]></tabTrigger>
+  <description>Invoked before rendering when new props or state are being received. </description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[componentWillUpdate(nextProps, nextState) {\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[cwup componentWillUpdate]]></tabTrigger>
+  <description>Invoked immediately before rendering when new props or state are being received. [DEPRECATION</description>
+ 
+    
+<snippet>
+  <content><![CDATA[componentDidUpdate(prevProps, prevState) {\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[cdup componentDidUpdate]]></tabTrigger>
+  <description>Invoked immediately after the component's updates are flushed to the DOM.</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[componentWillUnmount() {\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[cwun componentWillUnmount]]></tabTrigger>
+  <description>Invoked immediately before a component is unmounted from the DOM.</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[render() {\n\treturn (\n\t\t<div>\n\t\t\t$0\n\t\t</div>\n\t);\n}
+  ]]></content>
+  <tabTrigger><![CDATA[ren componentRender]]></tabTrigger>
+  <description>When called, it should examine this.props and this.state and return a single child element.</description>
+ 
+    
+<snippet>
+  <content><![CDATA[this.setState($0);
+    ]]></content>
+  <tabTrigger><![CDATA[sst componentSetStateObject]]></tabTrigger>
+  <description>Performs a shallow merge of nextState into current state</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[this.setState((state, props) => { return { $0 }});\n
+    ]]></content>
+  <tabTrigger><![CDATA[ssf componentSetStateFunc]]></tabTrigger>
+  <description>Performs a shallow merge of nextState into current state</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[this.props.$0
+    ]]></content>
+  <tabTrigger><![CDATA[props componentProps]]></tabTrigger>
+  <description>Access component's props</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[this.state.$0
+    ]]></content>
+  <tabTrigger><![CDATA[state componentState]]></tabTrigger>
+  <description>Access component's state</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[this.$1 = this.$1.bind(this);$0
+    ]]></content>
+  <tabTrigger><![CDATA[bnd bindThis]]></tabTrigger>
+  <description>Binds the this of a method. To be used inside a constructor</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[${1:$TM_FILENAME_BASE}.propTypes = {\n\t$2\n};
+    ]]></content>
+  <tabTrigger><![CDATA[rpt propTypes]]></tabTrigger>
+  <description>Creates empty propTypes declaration</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[${1:$TM_FILENAME_BASE}.defaultProps = {\n\t$2\n};
+    ]]></content>
+  <tabTrigger><![CDATA[rdp defaultProps]]></tabTrigger>
+  <description>Creates empty defaultProps declaration</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.array,
+    ]]></content>
+  <tabTrigger><![CDATA[pta propTypeArray]]></tabTrigger>
+  <description>Array prop type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.array.isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptar propTypeArrayRequired]]></tabTrigger>
+  <description>Array prop type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.bool,
+    ]]></content>
+  <tabTrigger><![CDATA[ptb propTypeBool]]></tabTrigger>
+  <description>Bool prop type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.bool.isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptbr propTypeBoolRequired]]></tabTrigger>
+  <description>Bool prop type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.func,
+    ]]></content>
+  <tabTrigger><![CDATA[ptf propTypeFunc]]></tabTrigger>
+  <description>Func prop type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.func.isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptfr propTypeFuncRequired]]></tabTrigger>
+  <description>Func prop type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.number,
+    ]]></content>
+  <tabTrigger><![CDATA[ptn propTypeNumber]]></tabTrigger>
+  <description>Number prop type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.number.isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptnr propTypeNumberRequired]]></tabTrigger>
+  <description>Number prop type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.object,
+    ]]></content>
+  <tabTrigger><![CDATA[pto propTypeObject]]></tabTrigger>
+  <description>Object prop type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.object.isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptor propTypeObjectRequired]]></tabTrigger>
+  <description>Object prop type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.string,
+    ]]></content>
+  <tabTrigger><![CDATA[pts propTypeString]]></tabTrigger>
+  <description>String prop type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.string.isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptsr propTypeStringRequired]]></tabTrigger>
+  <description>String prop type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.symbol,
+    ]]></content>
+  <tabTrigger><![CDATA[ptsm propTypeSymbol]]></tabTrigger>
+  <description>Symbol prop type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.symbol.isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptsmr propTypeSymbolRequired]]></tabTrigger>
+  <description>Symbol prop type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.any,
+    ]]></content>
+  <tabTrigger><![CDATA[ptan propTypeAny]]></tabTrigger>
+  <description>Any prop type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.any.isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptanr propTypeAnyRequired]]></tabTrigger>
+  <description>Any prop type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.node,
+    ]]></content>
+  <tabTrigger><![CDATA[ptnd propTypeNode]]></tabTrigger>
+  <description>Anything that can be rendered: numbers, strings, elements or an array</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.node.isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptndr propTypeNodeRequired]]></tabTrigger>
+  <description>Anything that can be rendered: numbers, strings, elements or an array required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.element,
+    ]]></content>
+  <tabTrigger><![CDATA[ptel propTypeElement]]></tabTrigger>
+  <description>React element prop type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.element.isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptelr propTypeElementRequired]]></tabTrigger>
+  <description>React element prop type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.instanceOf($0),
+    ]]></content>
+  <tabTrigger><![CDATA[pti propTypeInstanceOf]]></tabTrigger>
+  <description>Is an instance of a class prop type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.instanceOf($0).isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptir propTypeInstanceOfRequired]]></tabTrigger>
+  <description>Is an instance of a class prop type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.oneOf(['$0']),
+    ]]></content>
+  <tabTrigger><![CDATA[pte propTypeEnum]]></tabTrigger>
+  <description>Prop type limited to specific values by treating it as an enum</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.oneOf(['$0']).isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[pter propTypeEnumRequired]]></tabTrigger>
+  <description>Prop type limited to specific values by treating it as an enum required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.oneOfType([\n\t$0\n]),
+    ]]></content>
+  <tabTrigger><![CDATA[ptet propTypeOneOfType]]></tabTrigger>
+  <description>An object that could be one of many types</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.oneOfType([\n\t$0\n]).isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptetr propTypeOneOfTypeRequired]]></tabTrigger>
+  <description>An object that could be one of many types required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.arrayOf($0),
+    ]]></content>
+  <tabTrigger><![CDATA[ptao propTypeArrayOf]]></tabTrigger>
+  <description>An array of a certain type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.arrayOf($0).isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptaor propTypeArrayOfRequired]]></tabTrigger>
+  <description>An array of a certain type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.objectOf($0),
+    ]]></content>
+  <tabTrigger><![CDATA[ptoo propTypeObjectOf]]></tabTrigger>
+  <description>An object with property values of a certain type</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.objectOf($0).isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptoor propTypeObjectOfRequired]]></tabTrigger>
+  <description>An object with property values of a certain type required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.objectOf(PropTypes.shape($0)),
+    ]]></content>
+  <tabTrigger><![CDATA[ptoos propTypeObjectOfShape]]></tabTrigger>
+  <description>An object whose keys are known ahead of time</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.objectOf(PropTypes.shape($0)).isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptoosr propTypeObjectOfShapeRequired]]></tabTrigger>
+  <description>An object whose keys are known ahead of time required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.shape({\n\t$0\n}),
+    ]]></content>
+  <tabTrigger><![CDATA[ptsh propTypeShape]]></tabTrigger>
+  <description>An object taking on a particular shape</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[PropTypes.shape({\n\t$0\n}).isRequired,
+    ]]></content>
+  <tabTrigger><![CDATA[ptshr propTypeShapeRequired]]></tabTrigger>
+  <description>An object taking on a particular shape required</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[getSnapshotBeforeUpdate(prevProps, prevState) {\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[gsbu getSnapshotBeforeUpdate]]></tabTrigger>
+  <description>Invoked right before the most recently rendered output is committed to e.g. the DOM. It enables</description>
+ 
+    
+<snippet>
+  <content><![CDATA[static getDerivedStateFromProps(nextProps, prevState) {\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[gdsfp getDerivedStateFromProps]]></tabTrigger>
+  <description>Invoked after a component is instantiated as well as when it receives new props.</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[componentDidCatch(error, info) {\n\t$0\n}\n
+    ]]></content>
+  <tabTrigger><![CDATA[cdc componentDidCatch]]></tabTrigger>
+  <description>Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the</description>
+ 
+    
+<snippet>
+  <content><![CDATA[function mapDispatchToProps(dispatch) {\n\treturn {\n\t}\n\n}
+    ]]></content>
+  <tabTrigger><![CDATA[disp dispatchRedux]]></tabTrigger>
+  <description>Adds the redux mapDispatchToProps function</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[useEffect(() => {\n$0\n})
+    ]]></content>
+  <tabTrigger><![CDATA[usf useEffect]]></tabTrigger>
+  <description>Adds use effect</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[useEffect(() => {\n$0 return () => {\n$0\n\t}\n})
+    ]]></content>
+  <tabTrigger><![CDATA[usfu useEffectUnMount]]></tabTrigger>
+  <description>Adds use effect</description>
+</snippet>
+    
+<snippet>
+  <content><![CDATA[useEffect(() => {\n$0\n},[])
+    ]]></content>
+  <tabTrigger><![CDATA[usfd useEffectDidMount]]></tabTrigger>
+  <description>Adds use effect</description>
+</snippet>
+}

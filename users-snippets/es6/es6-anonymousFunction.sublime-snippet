@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+    (${1:params}) => {
+    	${2}
+    }
+    ]]></content>
+  <tabTrigger><![CDATA[function anonymous]]></tabTrigger>
+  <description>Creates an anonymous function in ES6 syntax</description>
+</snippet>

@@ -1,0 +1,11 @@
+
+
+<snippet>
+	<content><![CDATA[
+JSON.parse($1);$2
+]]></content>
+	<tabTrigger><![CDATA[parse]]></tabTrigger>
+	<description>JSON JS</description>
+</snippet>
+
+

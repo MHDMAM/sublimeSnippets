@@ -1,0 +1,10 @@
+
+<snippet>
+  <content><![CDATA[
+    export default class ${1:className} {
+    	$0
+    };
+    ]]></content>
+  <tabTrigger><![CDATA[class export]]></tabTrigger>
+  <description>Export default class in ES6 syntax</description>
+</snippet>
